@@ -36,8 +36,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: 25px;
+    justify-content: space-between;   
+    max-width: 315px;
 }
 
 .texto h1{
@@ -134,4 +134,16 @@ span{
     padding-right: 10px;
     line-height: 20px;
     color: var(--LightGrayishMagenta);
+}
+
+@media screen and (min-width: 300px){
+
+    
+    
+    .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        max-width: 800px;
+    }
 }
