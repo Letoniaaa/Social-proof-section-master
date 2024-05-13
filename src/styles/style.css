@@ -136,14 +136,17 @@ span{
     color: var(--LightGrayishMagenta);
 }
 
-@media screen and (min-width: 300px){
-
-    
-    
+@media screen and (min-width: 700px){
+   
     .container{
         display: flex;
         flex-direction: row;
         align-items: center;
         max-width: 800px;
+    }
+
+    .texto h1{
+        padding: 0;
+
     }
 }
